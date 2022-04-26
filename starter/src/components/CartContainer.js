@@ -7,7 +7,7 @@ const CartContainer = () => {
 
     const dispatch = useDispatch()
 
-const { cartItems, amount, total } = useSelector((state => state.cart))
+const { cartItems, amount, total } = useSelector((store => store.cart))
 
 
 
